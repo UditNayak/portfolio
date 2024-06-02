@@ -3,6 +3,7 @@ import './Home.css';
 import udit from './udit.png';
 import Intro from '../Intro';
 import Typing from '../Typing';
+import Footer from '../Footer';
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
             </div>
     </section>
     <Intro/>
+    <Footer/>
     </>
   );
 }

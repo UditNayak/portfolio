@@ -1,4 +1,3 @@
-import React from 'react';
 import './Skills.css';
 import { CgCPlusPlus } from "react-icons/cg";
 import {FaReact, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap} from "react-icons/fa";
