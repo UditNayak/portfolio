@@ -13,7 +13,7 @@ function Home() {
                 <p>Hi There!</p>
                 <h1>I'M <span className="name-highlight">Udit Kumar Nayak</span></h1>
                 <Typing 
-                text= {['Software Developer', 'Innovator', 'Player']}
+                text= {['Software Developer', 'AI/ML Enthusiast', 'Gamer']}
                 typingSpeed = {100}
                 deletingSpeed = {60}
                 duration = {1000}

@@ -1,7 +1,6 @@
-import React from 'react';
 import {FaGithub} from "react-icons/fa";
 import {CgFileDocument} from "react-icons/cg";
-import './Projects.css';
+import './ProjectBox.css';
 
 
 function ProjectBox({projectPhoto, projectName}) {

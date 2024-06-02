@@ -1,5 +1,6 @@
 import './About.css'; 
 import Skills from '../Skills';
+import Footer from '../Footer';
 
 function About() {
 
@@ -36,6 +37,7 @@ function About() {
         <Skills skill='Github' />
         
       </div>
+      <Footer/>
         </>
     );
 }

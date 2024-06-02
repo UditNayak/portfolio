@@ -1,5 +1,7 @@
 import ProjectBox from '../ProjectBox/ProjectBox';
 import dog from '../../images/dog.png';
+import Footer from '../Footer';
+import './Projects.css';
 
 
 function Projects() {
@@ -12,7 +14,7 @@ function Projects() {
           <ProjectBox projectPhoto={dog} projectName="Tindog" />
           <ProjectBox projectPhoto={dog} projectName="Tindog" />
           </div>
-    
+          <Footer/>
         </div>
       )
 }

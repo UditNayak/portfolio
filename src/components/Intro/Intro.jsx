@@ -1,6 +1,5 @@
 import React from 'react';
 import './Intro.css';
-// import krish from './krish.png';
 
 function Intro() {
   return (
@@ -22,7 +21,6 @@ function Intro() {
 
             </div>
             <div className="intro-image">
-                {/* <img src={krish} alt="krishna's photo"/> */}
             </div>
         </section>
   );

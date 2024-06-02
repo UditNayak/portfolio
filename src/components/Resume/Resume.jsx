@@ -3,6 +3,7 @@ import { Document, Page } from 'react-pdf';
 import res from '../../pdf/Udit_s_Resume_2.pdf'
 import { BsDownload } from "react-icons/bs";
 import './Resume.css';
+import Footer from '../Footer';
 
 function Resume() {
   const [numPages, setNumPages] = useState();
@@ -21,13 +22,13 @@ function Resume() {
       </div>
       
       <div className='downloadButtonContainer'>
-        <a href={res} target='_blank' rel='noopener noreferrer' download="Krishna_s_Resume_2.pdf">
+        <a href={res} target='_blank' rel='noopener noreferrer' download="Udit_s_Resume_2.pdf">
           <button className='downloadCV' type='button'>
             <BsDownload />&nbsp; Download CV
           </button>
         </a>
       </div>
-
+      <Footer/>
     </div>
   );
 }
