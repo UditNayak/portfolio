@@ -37,3 +37,26 @@ header {
 .Navbar-nav li a:hover {
   color: lightgreen;
 }
+
+.nav-item a {
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.nav-item a::after {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 0;
+  background-color: skyblue;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}
+
+.nav-item a:hover::after {
+  width: 100%;
+}
