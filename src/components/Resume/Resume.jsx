@@ -1,9 +1,9 @@
-import { useState } from 'react';
-import { Document, Page } from 'react-pdf';
-import res from '../../pdf/Udit_s_Resume_2.pdf'
+import Footer from "../Footer";
+import { useState } from "react";
+import { Document, Page } from "react-pdf";
+import res from "../../pdf/Udit_s_Resume_2.pdf";
 import { BsDownload } from "react-icons/bs";
-import './Resume.css';
-import Footer from '../Footer';
+import "./Resume.css";
 
 function Resume() {
   const [numPages, setNumPages] = useState();
@@ -14,21 +14,31 @@ function Resume() {
   }
 
   return (
-    <div className='resPdf'>
-        <div>
-      <Document file={res} onLoadSuccess={onDocumentLoadSuccess}>
-        <Page pageNumber={pageNumber} renderTextLayer={false} renderAnnotationLayer={false} />
-      </Document>
+    <div className="resPdf">
+      <div>
+        <Document file={res} onLoadSuccess={onDocumentLoadSuccess}>
+          <Page
+            pageNumber={pageNumber}
+            renderTextLayer={false}
+            renderAnnotationLayer={false}
+          />
+        </Document>
       </div>
-      
-      <div className='downloadButtonContainer'>
-        <a href={res} target='_blank' rel='noopener noreferrer' download="Udit_s_Resume_2.pdf">
-          <button className='downloadCV' type='button'>
-            <BsDownload />&nbsp; Download CV
+
+      <div className="downloadButtonContainer">
+        <a
+          href={res}
+          target="_blank"
+          rel="noopener noreferrer"
+          download="Udit_s_Resume_2.pdf"
+        >
+          <button className="downloadCV" type="button">
+            <BsDownload />
+            &nbsp; Download CV
           </button>
         </a>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

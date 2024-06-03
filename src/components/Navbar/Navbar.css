@@ -1,42 +1,39 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 6px 120px;
-    background-color: #0d1b2a; 
-    color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 120px;
+  background-color: #0d1b2a;
+  color: #fff;
 }
 
-.Navbar-logo h1{
-    font-size: 40px;
-    color: #8a4af3;
+.Navbar-logo h1 {
+  font-size: 40px;
+  color: #8a4af3;
 }
 
-.Navbar-nav{
-    display: flex;
-    gap: 70px;
+.Navbar-nav {
+  display: flex;
+  gap: 70px;
 }
 
-.Navbar-nav li{
-    display: flex;
-    align-items: center;
+.Navbar-nav li {
+  display: flex;
+  align-items: center;
 }
 
 .Navbar-nav li a {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
 }
 
 .Navbar-nav li a i {
-    font-size: 40px;
-    margin-right: 8px;
+  font-size: 40px;
+  margin-right: 8px;
 }
 
 .Navbar-nav li a:hover {
-    color: lightgreen;
-    
+  color: lightgreen;
 }
-
-

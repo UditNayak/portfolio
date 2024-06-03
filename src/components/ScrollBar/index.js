@@ -1,1 +1,1 @@
-export {default} from './ScrollBar';
+export { default } from "./ScrollBar";
