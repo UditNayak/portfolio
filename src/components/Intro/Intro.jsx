@@ -1,4 +1,3 @@
-import React from "react";
 import "./Intro.css";
 
 function Intro() {
@@ -14,10 +13,10 @@ function Intro() {
           developer & work that I can be proud of.
         </p>
         <p>
-          I am fluent in <span>JAVA</span> and know a bit of <span>Python</span>{" "}
+          I am fluent in <span>JAVA</span> and know a bit of <span>Python </span>
           and am working on a few projects in the <span>React</span> stack. I
-          plan to learn <span>Next.js</span> and{" "}
-          <span>Typescript</span> in the near future.
+          plan to learn <span>Next.js</span> and 
+          <span> Typescript</span> in the near future.
         </p>
         <p>
           Also, I love <span>Gamming</span>🎮
