@@ -4,22 +4,22 @@ import "./ProjectBox.css";
 
 function ProjectBox({ projectPhoto, projectName }) {
   const desc = {
-    TindogDesc:
+    IndiaPAYDesc:
       "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
     TindogGithub: "https://github.com/",
     TindogWebsite: "https://devanshsahni.github.io/tindog/",
 
-    TindogDesc:
+    ImageEditorDesc:
       "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
     TindogGithub: "https://github.com/",
     TindogWebsite: "https://devanshsahni.github.io/tindog/",
 
-    TindogDesc:
+    AerofitDesc:
       "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
     TindogGithub: "https://github.com/",
     TindogWebsite: "https://devanshsahni.github.io/tindog/",
 
-    TindogDesc:
+    Scrape_N_ShopDesc:
       "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
     TindogGithub: "https://github.com/",
     TindogWebsite: "https://devanshsahni.github.io/tindog/",

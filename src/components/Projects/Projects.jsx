@@ -5,15 +5,15 @@ import "./Projects.css";
 
 function Projects() {
   return (
-    <div>
+    <div className="projectContainer">
       <h1 className="projectHeading">
         My <b>Projects</b>
       </h1>
       <div className="project">
-        <ProjectBox projectPhoto={dog} projectName="Tindog" />
-        <ProjectBox projectPhoto={dog} projectName="Tindog" />
-        <ProjectBox projectPhoto={dog} projectName="Tindog" />
-        <ProjectBox projectPhoto={dog} projectName="Tindog" />
+        <ProjectBox projectPhoto={dog} projectName="IndiaPAY" />
+        <ProjectBox projectPhoto={dog} projectName="ImageEditor" />
+        <ProjectBox projectPhoto={dog} projectName="Aerofit" />
+        <ProjectBox projectPhoto={dog} projectName="Scrape_N_Shop" />
       </div>
       <Footer />
     </div>
