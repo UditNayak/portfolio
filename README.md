@@ -8,4 +8,3 @@
 - [X] Routing
 - [X] Versal Deployment
 - [X] Footer Component
-- [X] 
